@@ -1,0 +1,97 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Toàn trang */
+body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+    min-height: 100vh;
+}
+
+/* Card chung cho form + kết quả */
+.container {
+    background: #fff;
+    width: 100%;
+    max-width: 480px;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+/* Tiêu đề */
+h1 {
+    font-size: 1.5rem;
+    color: #008080;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Đoạn mô tả */
+p {
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+/* Label + input */
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+    color: #444;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 0.6rem 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    transition: 0.2s;
+}
+
+input:focus {
+    border-color: #008080;
+    box-shadow: 0 0 0 3px rgba(0,128,128,0.2);
+    outline: none;
+}
+
+/* Button */
+input[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+    background: #008080;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+input[type="submit"]:hover {
+    background: #006666;
+}
+
+/* Span hiển thị dữ liệu */
+span {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+/* Khoảng cách nhỏ */
+br {
+    margin-bottom: 0.5rem;
+}
